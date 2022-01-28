@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
-import HomeContent from '../components/HomeContent';
+import FAQContent from '../components/FAQContent';
 
 export default function Home() {
   return (
     <Layout>
-      <HomeContent />
+      <FAQContent />
     </Layout>
   );
 }

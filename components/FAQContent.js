@@ -12,7 +12,12 @@ const FAQQuestion = (props) => (
 const FAQAnswer = (props) => <p className="text-gray-400">{props.children}</p>;
 
 const ExternalLink = (props) => (
-  <a href={props.href} target="_blank" className="text-blue-400" noreferrer>
+  <a
+    href={props.href}
+    target="_blank"
+    className="text-blue-400"
+    rel="noreferrer"
+  >
     {props.children}
   </a>
 );
@@ -102,7 +107,7 @@ const FAQContent = () => {
           <FAQAnswer>
             Goal - raise more than $25000 for{' '}
             <ExternalLink href="https://www.givewell.org/maximum-impact-fund">
-              GiveWell's Maximum Impact Fund
+              GiveWell&apos;s Maximum Impact Fund
             </ExternalLink>
             <br />
             <br />
@@ -114,7 +119,7 @@ const FAQContent = () => {
           </FAQAnswer>
         </FAQCard>
         <FAQCard>
-          <FAQQuestion>Why GiveWell's Maximum Impact Fund?</FAQQuestion>
+          <FAQQuestion>Why GiveWell&apos;s Maximum Impact Fund?</FAQQuestion>
           <FAQAnswer>
             <a href="https://www.givewell.org/about">GiveWell</a> is a
             non-profit that does extensive research to determine which charities
@@ -144,9 +149,9 @@ const FAQContent = () => {
             <br />
             <br />
             Once the smart contract is ready, I will post its link here. You can
-            verify that the recipient's wallet is the same as{' '}
+            verify that the recipient&apos;s wallet is the same as{' '}
             <ExternalLink href="https://www.givewell.org/about/donate/cryptocurrency?FormStack_Form_Submission__c.referrer_header=https://www.givewell.org/">
-              GiveWell's Solana wallet address given here.
+              GiveWell&apos;s Solana wallet address given here.
             </ExternalLink>
           </FAQAnswer>
         </FAQCard>
@@ -160,9 +165,9 @@ const FAQContent = () => {
             projects. <br />
             <br />
             Why do NFTs get a bad name in the press? It is normal for people to
-            make fun of things I don't understand. A year back, I honestly did
-            not understand people spending hundreds of thousands in buying NFTs.
-            Now, I do. <br />
+            make fun of things I don&apos;t understand. A year back, I honestly
+            did not understand people spending hundreds of thousands in buying
+            NFTs. Now, I do. <br />
           </FAQAnswer>
         </FAQCard>
         <FAQCard>
